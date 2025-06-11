@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aria University</title>
+    <link href="./bootstarp/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#home">
+            <img src="./img/logo.png" alt="Logo" width="40" class="me-2">
+            <span class="fw-bold">Aria University.</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto d-flex flex-row gap-4">
+                <li class="nav-item"><a class="nav-link fw-semibold active" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold" href="#faculties">Faculties</a></li>
+                <li class="nav-item"><a class="nav-link fw-semibold" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header id="home" class="hero-section">
+    <div class="overlay d-flex align-items-center">
+        <div class="container text-white">
+            <div class="col-md-6">
+                <h1 class="fw-bold display-5">Build Your <br> Future Today.</h1>
+                <a href="#about" class="btn btn-outline-light btn-lg mt-3">Learn More →</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="mb-4">About Aria University</h2>
+        <p>
+            Aria University is committed to academic excellence and the future of its students.
+            We offer diverse programs, expert faculty, and a campus that promotes growth.
+
+        </p>
+        <p>Aria University in Mazar-i-Sharif is one of the more respected private universities in northern Afghanistan,
+            known especially for its key programs in <strong> Bachelor of Computer Science (BCS)</strong>,
+            <strong>Bachelor of Medicine</strong>, and <strong> Bachelor of Economics </strong>.
+            These three departments attract the majority of students because they offer clear paths to practical,
+            -demand careers in a country where digital skills, healthcare, and economic development are critically needed.
+            The BCS program caters to a growing interest in technology and software, giving students a shot at entering both
+            local tech spaces and remote global opportunities. The Bachelor of Medicine program, although challenged by resource
+            limitations, draws students who want to directly address the country's urgent medical shortages and contribute to saving lives.
+            Meanwhile, the Economics department trains future thinkers and planners to tackle Afghanistan’s complex financial landscape,
+            from grassroots entrepreneurship to national policy reform.
+            Despite its limited infrastructure and the broader instability in the region, Aria University continues to provide a
+            sense of direction for hundreds of students who might otherwise have no access to higher education.
+            The university's campus may lack luxury, but its students carry grit. Many juggle classes with part-time jobs or
+            family duties, determined to change their futures. The professors—some with strong academic backgrounds, others more
+            traditional—form the backbone of the institution, doing their best in a system that doesn’t always have their back. Yet,
+            amid power cuts, outdated facilities, and occasional administrative chaos, a real sense of purpose drives everyone.
+            Aria University might not be perfect, but in a city like Mazar-i-Sharif, it's a symbol of hope, ambition, and survival
+            through education.
+        </p>
+    </div>
+</section>
+
+<!-- Faculties Section -->
+<section id="faculties" class="py-5">
+    <div class="container">
+        <h2 class="mb-4 fw-bold">Our Faculties</h2>
+        <div class="row g-4">
+
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="faculty-card position-relative overflow-hidden rounded shadow">
+                    <img src="img/faculty1.jpg" class="w-100 faculty-img" alt="CS">
+                    <div class="overlay d-flex flex-column justify-content-center align-items-center text-white text-center px-3">
+                        <p class="mb-1 fw-semibold">Learn Computer Science in Aria University.</p>
+                        <small>With New and advanced technologies.</small>
+                    </div>
+                </div>
+                <h5 class="mt-3 fw-bold">Bachelor of Computer Science</h5>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="faculty-card position-relative overflow-hidden rounded shadow">
+                    <img id="img2" src="img/faculty2.jpg" class="w-100 faculty-img" alt="Medicine">
+                    <div class="overlay d-flex flex-column justify-content-center align-items-center text-white text-center px-3">
+                        <p class="mb-1 fw-semibold">Study Medicine with practical labs and experience.</p>
+                        <small>Experienced faculty and real-case training.</small>
+                    </div>
+                </div>
+                <h5 class="mt-3 fw-bold">Bachelor of Medicine</h5>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="faculty-card position-relative overflow-hidden rounded shadow">
+                    <img id="img3" src="img/faculty3.jpg" class="w-100 faculty-img" alt="CS2">
+                    <div class="overlay d-flex flex-column justify-content-center align-items-center text-white text-center px-3">
+                        <p class="mb-1 fw-semibold">Learn Modern Economics with theory.</p>
+                        <small>Add economics and other studies to skill set with on site and theoretical educations</small>
+                    </div>
+                </div>
+                <h5 class="mt-3 fw-bold">Bachelor of Computer Science</h5>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="container py-5">
+    <div class="row">
+        <div class="col-md-4">
+            <h2><strong>Contact us</strong></h2>
+            <p>Fill the form to contact us and one of our colleagues will reach you.</p>
+            <button type="submit" class="btn btn-primary mt-3 w-50">Submit</button>
+        </div>
+
+        <div class="col-md-8">
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label"><strong>Name:</strong></label>
+                    <input type="text" class="form-control bg-gradient" id="name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label"><strong>Email:</strong></label>
+                    <input type="email" class="form-control bg-gradient" id="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="description" class="form-label"><strong>Description:</strong></label>
+                    <textarea class="form-control bg-gradient" id="description" rows="4" placeholder="Write your message"></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="./bootstarp/bootstrap.bundle.min.js"></script>
+<script>
+    const sections = document.querySelectorAll("section, header");
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    // Highlight clicked nav link instantly
+    navLinks.forEach((link) => {
+        link.addEventListener("click", function () {
+            navLinks.forEach((l) => l.classList.remove("active", "text-primary"));
+            this.classList.add("active", "text-primary");
+        });
+    });
+
+    // Highlight based on scroll position
+    window.addEventListener("scroll", () => {
+        let current = "";
+        sections.forEach((section) => {
+            const sectionTop = section.offsetTop - 200; // Adjusted offset for more accuracy
+            if (window.scrollY >= sectionTop) {
+                current = section.getAttribute("id");
+            }
+        });
+
+        navLinks.forEach((link) => {
+            link.classList.remove("active", "text-primary");
+            if (link.getAttribute("href") === `#${current}`) {
+                link.classList.add("active", "text-primary");
+            }
+        });
+    });
+</script>
+
+
+</body>
+</html>

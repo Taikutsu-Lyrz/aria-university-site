@@ -1,0 +1,106 @@
+/* ========== General Reset ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========== Navbar ========== */
+.navbar {
+    z-index: 999;
+}
+
+.nav-link {
+    transition: all 0.3s ease;
+}
+
+.nav-link.active {
+    color: #0d6efd !important; /* Bootstrap primary */
+    font-weight: 600;
+}
+
+/* ========== Sections ========== */
+
+/* Section Hero */
+.hero-section {
+    height: 90vh;
+    background: url('./img/hero.jpg') no-repeat center center/cover;
+    position: relative;
+}
+
+.hero-section .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    padding-top: 100px;
+}
+
+
+section {
+    scroll-margin-top: 120px; /* so it's not hidden behind navbar */
+}
+
+
+/* Section Faculties */
+
+.faculty-card {
+    transition: transform 0.3s ease;
+}
+
+.faculty-card:hover {
+    transform: scale(1.02);
+}
+
+.faculty-img {
+    display: block;
+    border-radius: 10px;
+}
+
+.faculty-card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 44, 80, 0.7); /* dark blue */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+.faculty-card:hover .overlay {
+    opacity: 1;
+}
+
+/* Section Contact us */
+#contact {
+    min-height: 100vh;
+}
+
+
+.bg-gradient {
+
+border: 2px solid transparent;
+    background: linear-gradient(to right, #a3bac7, #c2deec),
+                linear-gradient(to right, #a3bac7, #c2deec);;
+    background-clip: padding-box;
+
+}
+
+.bg-gradient::placeholder {
+    color: #555;
+}
+
+
+
+/* ========== Responsive Padding ========== */
+@media (max-width: 768px) {
+    .hero-section .container {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        flex-direction: column !important;
+        gap: 1rem !important;
+    }
+}
