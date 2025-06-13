@@ -73,6 +73,7 @@ section {
 }
 
 /* Section Contact us */
+#formContact{}
 #contact {
     min-height: 100vh;
 }
@@ -80,7 +81,7 @@ section {
 
 .bg-gradient {
 
-border: 2px solid transparent;
+border: 2px solid blue;
     background: linear-gradient(to right, #a3bac7, #c2deec),
                 linear-gradient(to right, #a3bac7, #c2deec);;
     background-clip: padding-box;
