@@ -11,8 +11,8 @@ Check their page in following address[Aria University](https://www.facebook.com/
 
 ## Live Demo
 
-Click the link to check Live Demo
-[Aria University](aria-university.netlify.app)
+Click the link to check Live Demo<br>
+[Aria University App](aria-university.netlify.app)
 
 ## Their Logo
 <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/ada6f16a-b095-4d62-9432-9df3181794a5" />
