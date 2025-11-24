@@ -6,7 +6,8 @@ It features smooth hover effects for interactive elements like buttons and links
 
 All images and the logo are sourced from the official Aria University Facebook page.
 
-Check their page in following address[Aria University](https://www.facebook.com/ariauniversity)
+Check their page in following address<br>
+[Aria University](https://www.facebook.com/ariauniversity)
 
 
 ## Live Demo
